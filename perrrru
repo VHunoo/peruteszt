@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peru</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="peru.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        </style>
+</head>
+<body  style="padding-bottom: 10px; padding-left: 10px; padding-right: 10px;" >
+  
+<div class="content bg-white "  style="max-width: 1560px; margin: auto;">
+    
+    <header class="bg-dark">
+       <h1 class="text-white">Peru</h1><br>
+       <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">9.D Projektmunka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Afrika
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #dddddd00;" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Nigéria</a></li>
+                            <li><a class="dropdown-item" href="#">Egyiptom</a></li>
+                            <li><a class="dropdown-item" href="#">Uganda</a></li>
+                            <li><a class="dropdown-item" href="#">Arab Emírségek</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Ázsia
+                      </a>
+                      <ul class="dropdown-menu" style="background-color: #dddddd00;" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Kína</a></li>
+                          <li><a class="dropdown-item" href="#">Japán</a></li>
+                          <li><a class="dropdown-item" href="#">India</a></li>
+                          <li><a class="dropdown-item" href="#">Oroszország</a></li>
+                      </ul>
+                  </li>
+                    
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dél-Amerika
+                      </a>
+                      <ul class="dropdown-menu" style="background-color: #dddddd00;" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Brazília</a></li>
+                          <li><a class="dropdown-item" href="#">Argentína</a></li>
+                          <li><a class="dropdown-item" href="#">Peru</a></li>
+                          <li><a class="dropdown-item" href="#">Csille</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle me-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Európa
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end"  style=" background-color: #dddddd00;" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Olaszország</a></li>
+                        <li><a class="dropdown-item" href="#">Németország</a></li>
+                        <li><a class="dropdown-item" href="#">Franciaország</a></li>
+                        <li><a class="dropdown-item" href="#">Svédország</a></li>
+                        <li><a class="dropdown-item" href="#">Lengyelország</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link active btn btn-primary" aria-current="page" href="https://radbence.github.io/9.d-orszagok/index.html">Főoldal</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="sidenav">
+        <a href="#home" class="navlink">Home</a><br>
+        <a href="#Tudni"class="navlink">Tudnivalók</a><br>
+        <a href="#Tori"class="navlink">Történelme</a><br>
+        <a href="#Városok"class="navlink">Városok</a><br>
+        <a href="#GPD" class="navlink">GPD</a><br>
+        <a href="#Domborzat" class="navlink">Domborzata</a>
+    </div>
+    
+    </header>
+    
+    <seciton id="Tudni">
+        <h2>Általános tudnivalók</h2>
+        <p class="ubuntu-regular" >
+        
+            Peru a Dél-Amerikai kontinens harmadik legnagyobb országa, és az Andok hegység legnagyobb területű részén helyezkedik el. Északon Ecuador és Kolumbia, keleten Brazília és Bolívia, délen Chile, míg nyugaton mintegy 2000 kilométer hosszan a Csendes-óceán határolja. A fő nyelv a spanyol, de a perui lakosság jelentős része őshonos nyelveket, mint például az ajmara vagy a kecsua, beszél egymás között.
+    
+    
+    
+        </p>
+    </seciton>
+    
+    <div class="ubuntu-regular">
+        <h2 id="Városok">Legnépszerűbb városai</h2>
+            <p><b>Főváros:</b> Lima <br></p>
+            <p><b>Északi tengerpart:</b> Trujillo, Chiclayo (a Lambayeque terület központja; vallási eseményeiről híres), Piura  <br></p>
+            <p><b>Északi hegyvidék:</b> Huaraz, Chavín de Huántar, CajamarcaDéli tengerpart: Pisco, Ica (a bortermelés központja és a pisco nevű nemzeti italnak számító borpárlat hazája), <br></p>
+            <p><b> Nazca, Tacna Déli hegyvidék</b>: Cuzco (az Inka Birodalom egykori központja, Amerika régészeti fővárosa</b>: a tengerszint felett 3400 m magasan fekszik) <br>
+        
+             Urubamba, Machu Picchu, Arequipa (három tűzhányó magasodik körülötte, valamint itt található a világ legmélyebb kanyonja a Cañon del Colca), Puno, Ayacucho, Huancavelica <br>
+        
+        
+                <p><b>Amazónia:</b> Iquitos, Pucallpa <br></p>
+        
+        
+    </div>
+    
+    
+    <h2 id="Tori">Történelme</h2>
+    
+    
+    <p>
+    
+        Régen az Inka Birodalom központja volt. A 16. században a Spanyol Birodalom elfoglalta a területet, és egy alkirályságot hozott létre, ami magában foglalta a dél-amerikai területek nagy részét, fővárosa pedig Limában volt. Peru 1821 és 1824 között nyilvánította ki függetlenségét. A 20. században az ország puccsokat, társadalmi zavargásokat és belső konfliktusokat élt át. A 21. század elején azonban a régió egyik legvirágzóbb gazdaságává vált. 
+    
+    </p>
+    
+    <h2 id="GDP">GDP más országhoz képest</h2>
+    
+    <div class="table-responsive">
+        <table>
+            <tr>
+                <tr>
+                    <td> Peru</td>
+    
+    
+                    <td>242,6 milliárd USD</td>
+                </tr>
+                <tr>
+                    <td>Kína</td>
+    
+                <td>17,96 billió USD</td></tr>
+                <tr>
+                    <td>Magyarország</td>
+    
+    
+                    <td>177,3 milliárd USD</td>
+                </tr>
+                <tr>
+                    <td>Uganda</td>
+    
+    
+                    <td>45,57 milliárd USD</td>
+                </tr>
+            </tr>
+        </table>
+    </div>
+    
+    
+    <h2 id="Domborzat">Domborzata</h2>
+        <p> <h3>3 nagy táj Peruban</h3>
+             <ol>
+                <li>Parti síkság - <b>Costa</b></li>
+                
+                <ul>
+                    <li>
+                        <p>A partvidék kopár és sivatagos jellegű a hideg vizű Humboldt-áramlat miatt, ami délről észak felé halad. Az egyhangú felszínből csak időnként emelkednek ki homokdűnék. Délebbre a síkság keskenyedik, de továbbra is száraz marad. </p>
+                    </li>
+                </ul>
+                <li>Középső vonulatai - <b>Andok</b></li>
+                <ul>
+                    <li><p>A Középső-Andok a Föld leghosszabb összefüggő lánchegységének törzse, és egyben Peru legmagasabb pontjának, a 6768 méter magas Huascárának otthona. Az Andok három vonulata Ecuador felől érkezik: a Nyugati-, a Középső-, és a Keleti-Kordillerák, de Chile és Bolívia irányába már csak két ágban folytatódik. A Középső-Kordilleráknak vége szakad ott, ahol az Altiplano elterül, egy 4000 méter magas fennsík, és ahol a bolíviai határon található a világ legmagasabban fekvő hajózható tava, a Titicaca-tó, 3821 méteres magasságban.</p> </li>
+                </ul>
+                <li>Amazonas medence - <b>Selva</b></li>
+                <ul>
+                    <li>
+                        <p>Peru keleti része az Amazonas-medencéhez tartozik, és a kelet felé lecsökkenő domborzati egységek, majd trópusi őserdők borítják az alföldi területet. Bár az ország területének több mint felét foglalja el, ezt a területet csak a peruiak kis része lakja. </p>
+                    </li>
+                </ul>
+             </ol>
+    
+    
+    
+            <img src="img/Peru_physical_map.svg.png" alt="">
+        </p>
+    
+    
+    
+        <footer>
+            <p>Copyright: meg ilyenek</p> <br>
+            <a href="https://www.facebook.com/KriszhAdvice">:c</a>
+            <p>Forrás:<a href="https://hu.wikipedia.org/wiki/Peru#">https://hu.wikipedia.org/wiki/Peru#</a></p>
+        </footer>
+</div>
+</body>
+</html>
